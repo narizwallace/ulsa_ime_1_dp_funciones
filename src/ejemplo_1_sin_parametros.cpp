@@ -11,10 +11,14 @@
 // Imprime un saludo fijo.
 // No recibe nada y no devuelve nada (void).
 void saludar() {
-    std::cout << "Hola mundo\n";
+    std::cout << "Hola, mundo =)\n";
 }
 
 int main() {
+    saludar();
+    saludar();
+    saludar();
+    saludar();
     saludar();
     return 0;
 }

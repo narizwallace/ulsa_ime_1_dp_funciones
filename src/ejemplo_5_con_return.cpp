@@ -13,7 +13,8 @@
 // Recibe: el nombre de la persona.
 // Devuelve: el texto del saludo.
 std::string crearSaludo(std::string nombre) {
-    return "Hola, " + nombre;
+    std::string saludo = "Hola, " + nombre + "!!!";
+    return saludo;
 }
 
 int main() {

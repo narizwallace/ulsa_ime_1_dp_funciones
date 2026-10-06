@@ -10,10 +10,10 @@
 
 // Imprime un saludo fijo.
 int main() {
-    std::cout << "Hola mundo\n";
-    std::cout << "Hola mundo\n";
-    std::cout << "Hola mundo\n";
-    std::cout << "Hola mundo\n";
-    std::cout << "Hola mundo\n";
+    std::cout << "Hola, mundo\n";
+    std::cout << "Hola, mundo\n";
+    std::cout << "Hola, mundo\n";
+    std::cout << "Hola, mundo\n";
+    std::cout << "Hola, mundo\n";
     return 0;
 }

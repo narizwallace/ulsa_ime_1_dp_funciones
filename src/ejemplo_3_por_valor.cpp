@@ -14,14 +14,14 @@
 // Agrega un apellido al nombre y lo imprime.
 // Recibe: el nombre, por valor (una copia).
 // Devuelve: nada.
-void agregarPorValor(std::string nombre) {
+void agregar(std::string nombre) {
     nombre = nombre + " Lopez";
     std::cout << "Dentro: " << nombre << "\n";
 }
 
 int main() {
     std::string nombre = "Ana";
-    agregarPorValor(nombre);
+    agregar(nombre);
     std::cout << "Despues: " << nombre << "\n";
     return 0;
 }

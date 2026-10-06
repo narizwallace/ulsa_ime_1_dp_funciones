@@ -15,14 +15,14 @@
 // Agrega un apellido al nombre y lo imprime.
 // Recibe: el nombre, por referencia (el original).
 // Devuelve: nada. Modifica la variable que recibio.
-void agregarPorReferencia(std::string& nombre) {
-    nombre = nombre + " Lopez";
+void agregar(std::string& nombre) {
+    nombre = nombre + " Lopez!!!";
     std::cout << "Dentro: " << nombre << "\n";
 }
 
 int main() {
     std::string nombre = "Ana";
-    agregarPorReferencia(nombre);
+    agregar(nombre);
     std::cout << "Despues: " << nombre << "\n";
     return 0;
 }
