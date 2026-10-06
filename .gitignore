@@ -70,3 +70,7 @@ Testing/
 # binary files
 ejemplo
 ejemplo.exe
+
+# os files
+.DS_Store
+Thumbs.db

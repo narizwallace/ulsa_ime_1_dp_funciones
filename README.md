@@ -6,6 +6,7 @@ Ejemplos de la clase de funciones de Diseño de Programas. Cada archivo es un pr
 
 | Archivo | Tema | Qué observar |
 | --- | --- | --- |
+| `src/ejemplo_0_sin_funciones.cpp` | Programa sin funciones | Para repetir el saludo hay que repetir el código |
 | `src/ejemplo_1_sin_parametros.cpp` | Función sin parámetros | Cómo se define y cómo se llama una función |
 | `src/ejemplo_2_con_parametro.cpp` | Función con un parámetro | La misma función sirve para datos distintos |
 | `src/ejemplo_3_por_valor.cpp` | Paso por valor | La función cambia su copia; el original no cambia |
